@@ -1,2 +1,0 @@
-run this in cmd in this folder:
-http-server -p 9000
