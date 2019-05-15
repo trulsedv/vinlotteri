@@ -1,0 +1,19 @@
+﻿Bjørnar	2
+Erik O	10
+Gøran	10
+Johanne	12
+Jon Einar	10
+Jon Harald	5
+Kenneth	10
+Kim	10
+Kristoffer	31
+Kyrre	2
+Marie	10
+Marius	20
+Morten T	12
+Odd	10
+Stein	10
+Stig	3
+Terje	5
+Truls	10
+Yngvar	6

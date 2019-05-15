@@ -1,0 +1,18 @@
+{name: "Anders J", tickets: 10}, // VIPPS
+{name: "Kyrre", tickets: 6}, // VIPPS 		C
+{name: "Anders W", tickets: 10}, // VIPPS
+{name: "Magnus", tickets: 10}, // VIPPS		A
+{name: "Asgeir", tickets: 5}, // VIPPS
+{name: "Mathias", tickets: 5}, // VIPPS
+{name: "Morten T", tickets: 10}, // VIPPS	B
+{name: "Eivind", tickets: 8}, // VIPPS		G
+{name: "Ingvild", tickets: 5}, // VIPPS
+{name: "Odd", tickets: 10}, // Overføring
+{name: "Yngvar", tickets: 10}, // VIPPS
+{name: "Ruben", tickets: 20}, // VIPPS
+{name: "Truls", tickets: 5}, // Overføring
+{name: "Stig", tickets: 9}, // VIPPS
+{name: "Johanne", tickets: 12}, // VIPPS	E,F
+{name: "Sven", tickets: 10}, // VIPPS
+{name: "Kristoffer", tickets: 20}, // VIPPS
+{name: "Martin", tickets: 10}, // VIPPS		D

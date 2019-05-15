@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HymaVIN(N) </title>
+	
+	<link rel="stylesheet" href="./theme.css">
+    <script src='Winwheel.js'></script>
+    <script src='TweenMax.js'></script>
+    <script src='jquery-3.3.1.min.js'></script>
+</head>
+
+<body>
+	<section>
+		<div class="uk-vertical-align" style="height: 160px;">           
+		  	<div class="tm-parallax-teaser-container uk-vertical-align-middle">
+			    <div class="tm-parallax-teaser-headline">HymaVIN(N)</div>
+			    <br>
+			    <div class="tm-parallax-teaser-caption">Uvitenhet. Usikkerhet. Upålitelighet</div>
+		  	</div>
+		</div>		    
+	</section>
+
+    <canvas id="canvas" width="1900" height="770">Canvas not supported, use another browser.</canvas>
+    <div class="uk-vertical-align tm-parallax-teaser-container uk-vertical-align-middle">
+    	<button id="bigButton" class="button" onClick="hymaHjul.startAnimation(); this.disabled=true">Snurr!</button>
+    	<br>
+    	<br>
+    	<button class="buttonA button2" onclick="bigButton.disabled=false; resetWheel()">Reset</button>
+     </div>
+    
+    <script>
+    	var salg;
+    	$.ajax({
+		    async: false,
+		    dataType: "json",
+		    url: "salg.json",
+		    success: function(data) {
+		    	salg = data;
+		    }
+		});
+
+		var numPersons = salg.length;
+		var totalTickets = 0;
+		var lodd = [];
+		for (i = 0; i < numPersons; i++) {
+			totalTickets += salg[i]["tickets"]
+			lodd.push(salg[i]["tickets"]);
+		}
+		var seg = [];
+		for (i = 0; i < numPersons; i++) {
+			sizeI = salg[i]["tickets"]
+			textI = salg[i]["name"]
+			textI = textI.concat(", ", sizeI)
+			segE = {"text": textI, "size": winwheelPercentToDegrees(sizeI/totalTickets*100)}
+			seg.push(segE);
+		}
+
+		rotAng = 0;
+		startlotteri();
+
+		function startlotteri() {
+	 		hymaHjul = new Winwheel({
+				'numSegments'		: numPersons,
+				'outerRadius'		: 350,
+				'textFontSize' 		: 25,
+				'textAlignment' 	: 'outer',
+				'textDirection' 	: 'reversed',
+				'fillStyle'			: 'rgba(37, 57, 70, 0.4)',
+				'rotationAngle'		: rotAng,
+				'segments'			: seg,
+				'animation'			: {type: "spinToStop", duration: 25, spins: 2.5, callbackAfter: "drawTriangle()", callbackFinished: "winAnimation()"} // 25, 2.5
+			});
+	 		drawTriangle()			
+		}
+
+
+	    function winAnimation()
+	    {
+	        winningSegmentNumber = hymaHjul.getIndicatedSegmentNumber();
+	        hymaHjul.segments[winningSegmentNumber].fillStyle = 'rgba(45, 149, 213, 1)';
+	        hymaHjul.draw();
+	        
+	        setTimeout(function() {
+		        lodd[winningSegmentNumber-1] = lodd[winningSegmentNumber-1] - 1;
+		        totalTickets = totalTickets - 1
+
+		        rotAng = hymaHjul.rotationAngle
+		        seg = [];
+        		for (i = 0; i < numPersons; i++) {
+					sizeI = lodd[i]
+					textI = salg[i]["name"]
+					textI = textI.concat(", ", lodd[i])
+					segE = {"text": textI, "size": winwheelPercentToDegrees(sizeI/totalTickets*100)}
+					seg.push(segE);
+				}
+				startlotteri();
+				hymaHjul.segments[winningSegmentNumber].fillStyle = 'rgba(45, 149, 213, 1)';
+	        	hymaHjul.draw();
+		        drawTriangle();        	
+	        },3000)
+
+	        drawTriangle();
+	    }
+	    function resetWheel()
+	    {
+	    	hymaHjul.stopAnimation(false);
+	    	hymaHjul.rotationAngle=0;
+	        for (var x = 1; x < hymaHjul.segments.length; x ++)
+	        {
+	            hymaHjul.segments[x].fillStyle = 'rgba(37, 57, 70, 0.4)';
+	        }
+	        hymaHjul.draw();
+			drawTriangle();
+	    }
+	    function drawTriangle()
+	    {
+	        var ctx = hymaHjul.ctx;
+	        ctx.strokeStyle = 'black';     // Set line colour.
+	        ctx.fillStyle   = 'rgba(45, 149, 213, 1)';     // Set fill colour.
+	        ctx.lineWidth   = 2;
+	        ctx.beginPath();              // Begin path.
+	        ctx.moveTo(920, 5);           // Move to initial position.
+	        ctx.lineTo(980, 5);           // Draw lines to make the shape.
+	        ctx.lineTo(950, 40);
+	        ctx.lineTo(921, 5);
+	        ctx.stroke();                 // Complete the path by stroking (draw lines).
+	        ctx.fill();                   // Then fill.
+	    }
+	</script>
+</body>
+</html>

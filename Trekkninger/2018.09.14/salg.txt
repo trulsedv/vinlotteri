@@ -1,0 +1,18 @@
+{name: "Anders J", tickets: 10}, // VIPPS
+{name: "Kyrre", tickets: 5}, // VIPPS
+{name: "Ruben", tickets: 10}, // VIPPS D ¤¤¤fikk dobbelt antall lodd!¤¤¤
+{name: "Yngvar", tickets: 10}, // VIPPS
+{name: "Ruben", tickets: 10}, // VIPPS 
+{name: "Asgeir", tickets: 5}, // VIPPS
+{name: "Ragnar", tickets: 10}, // --Kontanter-- C G
+{name: "Morten T", tickets: 5}, // VIPPS A
+{name: "Marius", tickets: 20}, // VIPPS F
+{name: "Ingvild", tickets: 5}, // VIPPS B
+{name: "Anders", tickets: 6}, // VIPPS
+{name: "Truls", tickets: 2}, // --###--
+{name: "Mathias", tickets: 5}, // VIPPS
+{name: "Erik B", tickets: 5}, // VIPPS E
+{name: "Eivind", tickets: 5}, // VIPPS
+{name: "Johanne", tickets: 5}, // VIPPS
+{name: "Stig", tickets: 5}, // VIPPS
+{name: "Stig-Martin", tickets: 10}, // VIPPS

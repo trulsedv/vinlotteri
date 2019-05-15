@@ -1,0 +1,23 @@
+{name: "Kim", tickets: 9}, // VIPPS ¤ D
+{name: "Kyrre", tickets: 5}, // VIPPS
+{name: "Edel", tickets: 5}, // VIPPS
+{name: "Bjarke", tickets: 5}, // VIPPS
+{name: "Anders", tickets: 14}, // VIPPS ¤ E
+{name: "Stig", tickets: 5}, // VIPPS
+{name: "Odd", tickets: 10}, // OVERFØRING
+{name: "Magnus", tickets: 10}, // VIPPS
+{name: "Kristin", tickets: 5}, // VIPPS
+{name: "Asbjørn", tickets: 5}, // VIPPS
+{name: "Morten T", tickets: 9}, // VIPPS
+{name: "Yngvar", tickets: 5}, // VIPPS
+{name: "Stig-Martin", tickets: 10}, // VIPPS
+{name: "Sven", tickets: 9}, // VIPPS
+{name: "Kristoffer", tickets: 9}, // VIPPS
+
+120 lodd = 1200 kr
+
+Vipps:
+110 lodd = 1100 kr
+
+Overføring:
+10 lodd = 100 kr

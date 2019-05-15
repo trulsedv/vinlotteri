@@ -1,0 +1,26 @@
+{name: "Anders A", tickets: 1}, E
+{name: "Truls", tickets: 1}, D
+{name: "Yngvar", tickets: 1},
+{name: "Ingvild", tickets: 1},
+{name: "Kyrre", tickets: 1}, B
+{name: "Gøran", tickets: 1},
+{name: "Kevin", tickets: 1},
+{name: "Jan Arve", tickets: 1},
+{name: "Morten F", tickets: 1},
+{name: "Jon Harald", tickets: 1}, A
+{name: "Ivar", tickets: 1},
+{name: "Magnus", tickets: 1},
+{name: "Stein", tickets: 1},
+{name: "Martin", tickets: 1},
+{name: "Mathias", tickets: 1},
+{name: "Roy", tickets: 1},
+{name: "Asgeir", tickets: 1},
+{name: "Erik O", tickets: 1},
+{name: "Kristin", tickets: 1},
+{name: "Morten T", tickets: 1},
+{name: "Sven", tickets: 1},
+{name: "Anders W", tickets: 1}, C
+{name: "Ruben", tickets: 1},
+{name: "Ragnar", tickets: 1}, F
+{name: "Marius", tickets: 1},
+{name: "Terje", tickets: 1}

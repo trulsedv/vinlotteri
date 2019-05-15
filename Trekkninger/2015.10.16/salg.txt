@@ -1,0 +1,15 @@
+﻿Anders	5
+Erik B	5
+Erik O	5
+Gøran	2
+Johanne	5
+Kenneth	5
+Kim	5
+Marius	8
+Morten T	5
+Odd	5
+Stein	3
+Stig	3
+Sven	5
+Truls	5
+Yngvar	6

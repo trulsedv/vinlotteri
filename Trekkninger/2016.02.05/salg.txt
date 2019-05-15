@@ -1,0 +1,20 @@
+﻿Anders	5
+Bjarke	3
+Erik B	5
+Erik O	5
+Gøran	2
+Hanne	2
+Johanne	5
+Jon Harald	5
+Kenneth	5
+Kristoffer	10
+Kyrre	2
+Marie	5
+Marius	10
+Morten F	5
+Odd	5
+Stein	5
+Stig	2
+Stig-Martin	5
+Terje	5
+Yngvar	5

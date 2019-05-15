@@ -1,0 +1,24 @@
+﻿{name: "Kim", tickets: 10}, // VIPPS
+{name: "Morten T", tickets: 10}, //VIPPS ¤ C
+{name: "Gøran", tickets: 10}, //VIPPS ¤ D
+{name: "Kyrre", tickets: 5}, //VIPPS
+{name: "Marius", tickets: 20}, //VIPPS ¤ B
+{name: "Kristin", tickets: 5}, //VIPPS
+{name: "Johanne", tickets: 5}, //VIPPS
+{name: "Truls", tickets: 15}, //OVERFØRING
+{name: "Erik B", tickets: 5}, //CASH
+{name: "Odd", tickets: 10}, //OVERFØRING
+{name: "Edel", tickets: 10}, //CASH
+{name: "Stig-Martin", tickets: 10}, //VIPPS ¤ A
+{name: "Magnus", tickets: 10}, //VIPPS ¤ E
+{name: "Anders", tickets: 15}, //VIPPS
+{name: "Kristoffer", tickets: 20}, //VIPPS
+{name: "Terje", tickets: 10}, //VIPPS
+
+170 lodd = 1700 kr
+
+Direkte overføring:
+25 lodd = 250 kr
+
+Vipps og cash:
+145 lodd = 1450 kr

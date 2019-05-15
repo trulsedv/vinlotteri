@@ -1,0 +1,24 @@
+{name: "Kim", tickets: 15}, // VIPPS C
+{name: "Truls", tickets: 10}, // Krite A
+{name: "Kyrre", tickets: 3}, // VIPPS
+{name: "Johanne", tickets: 5}, // VIPPS
+{name: "Anders", tickets: 10}, // VIPPS
+{name: "Stein", tickets: 5}, // VIPPS
+{name: "Stig", tickets: 11}, // VIPPS D
+{name: "Stig-Martin", tickets: 10}, // VIPPS
+{name: "Marius", tickets: 10}, // VIPPS
+{name: "Gøran", tickets: 10}, // VIPPS
+{name: "Terje", tickets: 10}, // VIPPS E
+{name: "Eivind", tickets: 3}, // VIPPS
+{name: "Yngvar", tickets: 5}, // VIPPS
+{name: "Martin", tickets: 10}, // VIPPS
+{name: "Odd", tickets: 10}, // Krite B
+{name: "Edel", tickets: 2}, // Kontant
+{name: "Erik", tickets: 5}, // VIPPS
+{name: "Kristoffer", tickets: 16}, // VIPPS
+
+150 lodd = 1500 kr
+
+Til meg = 12 lodd = 120 kr (Edel og Truls)
+Direkte til konto = 10 lodd = 100 kr (Odd)
+VIPPS = 128 lodd = 1280 kr

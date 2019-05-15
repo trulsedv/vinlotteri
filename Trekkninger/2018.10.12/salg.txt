@@ -1,0 +1,20 @@
+{name: "'Hillern' ", tickets: 5}, // VIPPS
+{name: "Anders AA", tickets: 10}, // VIPPS
+{name: "Ingvild", tickets: 5}, // VIPPS
+{name: "Magnustat", tickets: 10}, // VIPPS
+{name: "Kyrre", tickets: 5}, // VIPPS
+{name: "Marius", tickets: 15}, // VIPPS A
+{name: "Anders W", tickets: 10}, // Vipps
+{name: "Terje", tickets: 10}, // Vipps
+{name: "Odd Ventil", tickets: 10}, // Overfører til truls
+{name: "Stein", tickets: 5}, // vipps
+{name: "Gøran", tickets: 5}, // vipps
+{name: "Morten T", tickets: 5}, //Vipps A
+{name: "Ruben", tickets: 10}, // Vipps A
+{name: "Stig Martin", tickets: 10}, // VIPPS
+{name: "Edel", tickets: 2}, // Vipps
+{name: "Stig", tickets: 10}, // Vipps A
+{name: "Erik B", tickets: 5}, // VIPPS A
+{name: "Johanne", tickets: 5}, // VIPPS
+{name: "Asgeir", tickets: 5}, // VIPPS
+{name: "Kristoffer", tickets: 10}, // VIPPS

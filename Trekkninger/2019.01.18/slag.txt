@@ -1,0 +1,19 @@
+﻿		[
+		  {"name": "Kyrre", tickets: 3},
+		  {"name": "Truls", tickets: 5},
+		  {"name": "Mathias", tickets: 5},
+		  {"name": "Anders", tickets: 10},
+		  {"name": "Morten T", tickets: 5},
+		  {"name": "Ruben", tickets: 10},
+		  {"name": "Asgeir", tickets: 5},
+		  {"name": "Magnus", tickets: 10},
+		  {"name": "Ingvild", tickets: 5},
+		  {"name": "Kristoffer", tickets: 10},
+		  {"name": "Stig-Martin", tickets: 10},
+		  {"name": "Marius", tickets: 15},
+		  {"name": "Gøran", tickets: 5},
+		  {"name": "Odd", tickets: 10},
+		  {"name": "Terje", tickets: 5},
+		  {"name": "Martin", tickets: 10},
+		  {"name": "Erik B", tickets: 5}
+		]
