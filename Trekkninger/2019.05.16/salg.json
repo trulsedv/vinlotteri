@@ -1,7 +1,7 @@
 [
 	{"name": "Magnus W", "tickets": 4},
-	{"name": "Ingvild", "tickets": 5},
-	{"name": "Ruben B", "tickets": 10},
+	{"name": "Ingvild", "tickets": 5, "prizes": 1},
+	{"name": "Ruben B", "tickets": 10, "prizes": 2},
 	{"name": "Kyrre", "tickets": 3},
 	{"name": "Truls", "tickets": 10},
 	{"name": "Erik", "tickets": 5},
@@ -15,8 +15,10 @@
 	{"name": "Yngvar", "tickets": 6},
 	{"name": "Ragnar", "tickets": 6},
 	{"name": "Odd H", "tickets": 10},
-	{"name": "Kim", "tickets": 15},
-	{"name": "Andesr W", "tickets": 10},
+	{"name": "Kim", "tickets": 15, "prizes": 1},
+	{"name": "Anders W", "tickets": 10, "prizes": 1},
 	{"name": "Terje", "tickets": 10},
-	{"name": "Erik B", "tickets": 5}
+	{"name": "Erik B", "tickets": 5},
+	{"name": "Andreas", "tickets": 5, "prizes": 1},
+	{"name": "Hanne", "tickets": 5}
 ]

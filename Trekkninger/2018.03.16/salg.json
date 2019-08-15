@@ -1,0 +1,18 @@
+[
+	{"name": "Kim", "tickets": 10},
+	{"name": "Morten T", "tickets": 10, "prizes": 1},
+	{"name": "Gøran", "tickets": 10, "prizes": 1},
+	{"name": "Kyrre", "tickets": 5},
+	{"name": "Marius", "tickets": 20, "prizes": 1},
+	{"name": "Kristin", "tickets": 5},
+	{"name": "Johanne", "tickets": 5},
+	{"name": "Truls", "tickets": 15},
+	{"name": "Erik B", "tickets": 5},
+	{"name": "Odd", "tickets": 10},
+	{"name": "Edel", "tickets": 10},
+	{"name": "Stig-Martin", "tickets": 10, "prizes": 1},
+	{"name": "Magnus", "tickets": 10, "prizes": 1},
+	{"name": "Anders", "tickets": 15},
+	{"name": "Kristoffer", "tickets": 20},
+	{"name": "Terje", "tickets": 10}
+]
