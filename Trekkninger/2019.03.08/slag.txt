@@ -1,0 +1,17 @@
+		[
+		  {"name": "Kyrre", tickets: 5},
+		  {"name": "Mathias", tickets: 4}, ¤
+		  {"name": "Anders A", tickets: 9}, ¤
+		  {"name": "Gøran", tickets: 5},
+		  {"name": "Ragnar", tickets: 9}, ¤
+		  {"name": "Odd", tickets: 10},
+		  {"name": "Bjarke", tickets: 3}, 
+		  {"name": "Truls", tickets: 4}, ¤?
+		  {"name": "Stein", tickets: 5},
+		  {"name": "Terje", tickets: 10},
+		  {"name": "Ruben B", tickets: 5},
+		  {"name": "Ruben O", tickets: 10},
+		  {"name": "Ingvild", tickets: 5},
+		  {"name": "Marius", tickets: 12}, ¤
+		  {"name": "Asgeir", tickets: 5}
+		]
