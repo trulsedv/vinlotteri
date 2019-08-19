@@ -1,6 +1,6 @@
 [
 	{"name": "Anders JA", "tickets": 10, "prizes": 1},
-	{"name": "Kenneth", "tickets": 5},
+	{"name": "Kenneth", "tickets": 5, "prizes": 1},
 	{"name": "Ruben O", "tickets": 10, "prizes": 1},
 	{"name": "Ingvild", "tickets": 5},
 	{"name": "Asgeir", "tickets": 5, "prizes": 1},
