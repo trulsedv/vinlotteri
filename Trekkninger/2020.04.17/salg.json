@@ -1,0 +1,21 @@
+[
+	{"name": "Anders Sz", "tickets": 4},
+	{"name": "Ruben B", "tickets": 10},
+	{"name": "Sven", "tickets": 10, "prizes": 1},
+	{"name": "Odd", "tickets": 10, "prizes": 1},
+	{"name": "Kenneth", "tickets": 10},
+	{"name": "Asgeir", "tickets": 10},
+	{"name": "Truls", "tickets": 5},
+	{"name": "Mathias", "tickets": 10},
+	{"name": "Magnus B", "tickets": 10, "prizes": 2},
+	{"name": "Anders A", "tickets": 20, "prizes": 1},
+	{"name": "Ruben O", "tickets": 10},
+	{"name": "Hanne", "tickets": 5},
+	{"name": "Kyrre", "tickets": 5},
+	{"name": "Ivan", "tickets": 10, "prizes": 1},
+	{"name": "Svein", "tickets": 5},
+	{"name": "Martin", "tickets": 10},
+	{"name": "Erik B", "tickets": 5},
+	{"name": "Andreas", "tickets": 5},
+	{"name": "Sondre", "tickets": 5}
+]
