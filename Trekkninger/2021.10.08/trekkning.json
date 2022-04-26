@@ -1,0 +1,64 @@
+[{
+    "name": "Anders A",
+    "tickets": 10,
+    "prizes": 1
+}, {
+    "name": "Ruben B",
+    "tickets": 5,
+    "prizes": 1
+}, {
+    "name": "Odd",
+    "tickets": 10
+}, {
+    "name": "Mathias",
+    "tickets": 5
+}, {
+    "name": "Ciaran",
+    "tickets": 4
+}, {
+    "name": "Fridtjof",
+    "tickets": 10
+}, {
+    "name": "Sondre",
+    "tickets": 5
+}, {
+    "name": "Gaute",
+    "tickets": 5
+}, {
+    "name": "Jøran",
+    "tickets": 10
+}, {
+    "name": "Ruben O",
+    "tickets": 10
+}, {
+    "name": "Helga",
+    "tickets": 4,
+    "prizes": 1
+}, {
+    "name": "Truls",
+    "tickets": 10,
+    "prizes": 2
+}, {
+    "name": "Tone",
+    "tickets": 3
+}, {
+    "name": "Johan",
+    "tickets": 10
+}, {
+    "name": "Magnus B",
+    "tickets": 10
+}, {
+    "name": "Håkon",
+    "tickets": 6
+}, {
+    "name": "Martin",
+    "tickets": 10
+}, {
+    "name": "Ivan",
+    "tickets": 5,
+    "prizes": 1
+}, {
+    "name": "Øystein",
+    "tickets": 4,
+    "prizes": 2
+}]
